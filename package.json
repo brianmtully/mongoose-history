@@ -1,6 +1,6 @@
 {
   "name": "mongoose-history",
-  "version": "0.5.1",
+  "version": "0.8.0",
   "description": "Keeps a history of all changes of a document.",
   "main": "lib/mongoose-history.js",
   "files": [
@@ -53,12 +53,15 @@
   "bugs": {
     "url": "https://github.com/nassor/mongoose-history/issues"
   },
-  "dependencies": {
-    "async": "^2.0.0-rc.3",
-    "mongoose": "^4.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "async": "^2.6.0",
+    "mongoose": "^5.0.0",
     "mocha": "2.4.5",
     "should": "8.2.2"
+  },
+  "peerDependencies": {
+    "async": "^2.0.0",
+    "mongoose": "^4.0.0 || >=5.0.0"
   }
 }
